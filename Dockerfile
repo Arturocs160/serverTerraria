@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV TMODLOADER_VERSION=2025.04.3.0
 ENV TMODLOADER_URL=https://github.com/tModLoader/tModLoader/releases/download/v${TMODLOADER_VERSION}/tModLoader.zip
 # Cambiar por el nombre de tu mundo
-ENV WORLD_NAME=Escrotolandia
+ENV WORLD_NAME=ejemploCambiar
 
 # Instalación de dependencias
 RUN apt-get update && \
